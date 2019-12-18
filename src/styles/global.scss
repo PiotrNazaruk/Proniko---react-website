@@ -46,9 +46,10 @@ a{
     top: 0;
     left: 0;
     display: flex;
-    color:  rgb(24, 17, 56);
+    color:  #333332;
     line-height: 1.7rem;
     letter-spacing: .04rem;
+    font-family: 'Source Code Pro', monospace;
     @include tablet{
       font-size: 1.5rem;
       line-height: 2.5rem;
