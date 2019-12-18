@@ -76,7 +76,7 @@ class IndexPage extends Component {
           <p>( działamy całą dobę )</p>
           
           </div>
-          <div className="reservation__button"> <a href="tel:+6494461709"><button className="reservation__btn">ZADZWOŃ</button></a></div>
+          <div className="reservation__button"> <Link to="/contact/"><button className="reservation__btn">KONTAKT</button></Link></div>
           </section>
           
         </Layout>
