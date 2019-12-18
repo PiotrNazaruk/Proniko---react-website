@@ -9,12 +9,14 @@
   overflow: hidden;
   @include phone-landscape{
     height: 80vh;
+    
   }
   @include desktop{
     flex-direction: row;
     flex-wrap: wrap;
     height: 100vh;
     background: whitesmoke;
+    padding-top: 3rem;
   }
 
   &__box{
@@ -74,16 +76,19 @@
   background: url('../images/map.svg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 100%;
 }
 .icons__img--second{
   background: url('../images/route.svg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 100%;
 }
 .icons__img--third{
   background: url('../images/airplane.svg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 100%;
 }
 .icons__img--fourth{
   background: url('../images/24-hours.svg');
