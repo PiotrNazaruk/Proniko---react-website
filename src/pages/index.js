@@ -62,7 +62,7 @@ class IndexPage extends Component {
               <div className="icons__img icons__img--fourth"></div>
               <div className="icons__text">
                 <h3>Obługa transportowa eventów</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo cupiditate repellat est perspiciatis molestias numquam voluptates pariatur saepe aut officia.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo cupiditate repellat esta.</p>
               </div>
             </div>
           </section>
