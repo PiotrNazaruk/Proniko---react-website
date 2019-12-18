@@ -22,8 +22,13 @@
   &__text{
     height: 70%;
     text-align: center;
+    @include desktop{
+      width: 70%;
+      margin: 0 auto;
+    }
  
   }
+
 }
 
 .offer-header__content{

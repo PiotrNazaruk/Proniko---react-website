@@ -41,24 +41,28 @@ class IndexPage extends Component {
               <div className="icons__img icons__img--first"></div>
               <div className="icons__text">
                 <h3>Przewóz osób na wycieczkę</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita ducimus provident itaque excepturi at rerum error vero et. Officia, cupiditate!</p>
               </div>
             </div>
             <div className="icons__box">
               <div className="icons__img icons__img--second"></div>
               <div className="icons__text">
                 <h3>Obsługa transportowa wesel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro corporis aut quis repudiandae voluptates officiis. Placeat eum impedit natus beatae!</p>
               </div>
             </div>
             <div className="icons__box">
               <div className="icons__img icons__img--third"></div>
               <div className="icons__text">
                 <h3>Przewóz osób na lotnisko</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati modi quam consequatur illum nesciunt quis debitis, iure deserunt eligendi veritatis!</p>
               </div>
             </div>
             <div className="icons__box">
               <div className="icons__img icons__img--fourth"></div>
               <div className="icons__text">
                 <h3>Obługa transportowa eventów</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo cupiditate repellat est perspiciatis molestias numquam voluptates pariatur saepe aut officia.</p>
               </div>
             </div>
           </section>
