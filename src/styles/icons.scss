@@ -12,6 +12,8 @@
   }
   @include desktop{
     flex-direction: row;
+    flex-wrap: wrap;
+    height: 80vh;
   }
 
   &__box{
@@ -21,7 +23,8 @@
   align-items: center;
   @include desktop{
     flex-direction: column;
-    height: 100%;
+    height: 45%;
+    width: 45%;
   }
 
   }
@@ -42,6 +45,8 @@
     justify-content: space-around;
     display: flex;
     flex-direction: column;
+    padding: .5rem;
+    text-align: justify;
    
   }
   h3{
@@ -49,6 +54,9 @@
     @include tablet{
       font-size: 1.5rem;
     }
+    @include desktop{
+      text-align: center;
+    } 
   }
   p{
     display: none;
@@ -82,8 +90,6 @@
 .icons__text{
   padding: .5rem;
 padding-left: 3rem;
-@include desktop{
-  padding: 0;
-}
+
  
 }
