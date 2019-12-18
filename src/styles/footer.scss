@@ -1,3 +1,4 @@
+@import '../styles/media.scss';
 .footer{
   height: 15vh;
   padding: 1rem;
@@ -5,6 +6,9 @@
   background: #898181;
   display: flex;
   overflow: hidden;
+  @include phone-landscape{
+    height: 20vh;
+  }
   &__contact{
     width: 60%;
 

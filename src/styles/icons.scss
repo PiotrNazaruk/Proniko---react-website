@@ -1,3 +1,5 @@
+@import '../styles/media.scss';
+
 .icons{
   height: 50vh;
   display: flex;
@@ -5,6 +7,9 @@
   padding: 1rem;
   justify-content: center;
   overflow: hidden;
+  @include phone-landscape{
+    height: 80vh;
+  }
 
   &__box{
   height: 23%;
@@ -24,6 +29,9 @@
   text-align: center;
   h3{
     font-size: 1rem;
+    @include tablet{
+      font-size: 1.5rem;
+    }
   }
 }
 .icons__img--first{

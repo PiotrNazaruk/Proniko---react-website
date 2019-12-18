@@ -7,6 +7,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+ @import '../styles/media.scss';
  *{
    margin: 0;
    padding: 0;
@@ -46,6 +47,13 @@ a{
     left: 0;
     display: flex;
     color:  rgb(24, 17, 56);
+    line-height: 1.7rem;
+    letter-spacing: .04rem;
+    @include tablet{
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+    } 
+    
   
    
     

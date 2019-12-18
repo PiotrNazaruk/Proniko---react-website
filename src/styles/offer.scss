@@ -1,15 +1,17 @@
-.offer-header{
-
-}
+@import '../styles/media.scss';
 
 .offer{
-  height: 40vh;
+  height: 50vh;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
   overflow: hidden;
+  @include tablet{
+    height: 30vh;
+
+  }
   &__headline{
     text-align: center;
     height: 20%;
@@ -20,6 +22,7 @@
   &__text{
     height: 70%;
     text-align: center;
+ 
   }
 }
 
