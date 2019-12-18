@@ -27,14 +27,11 @@ class IndexPage extends Component {
           </header>
           <section className="offer">
             <div className="offer__headline">
-              <h3>PRZEJAZDY ZIELONA GÓRA </h3>
+              <h3>TRANSPORT OSÓB</h3>
             </div>
             <div className="offer__text">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                rem illum voluptas deleniti, tenetur placeat. Maiores sint
-                ducimus amet, provident vero doloribus quisquam dignissimos
-                corrupti quasi at eveniet doloremque? Culpa?
+                Świadczymy profesjonalne usługi transportowe osób na terenie Polski oraz całej Europy Zachodniej. Do naszej dyspozycji są 8 osobowe Renault Traffic w najbogatszej wersji wyposażenia. Auta są należycie przygotowane posiadając badania techniczne oraz certyfikaty wymagane w zachodniej Europie.
               </p>
             </div>
           </section>
@@ -43,25 +40,25 @@ class IndexPage extends Component {
             <div className="icons__box">
               <div className="icons__img icons__img--first"></div>
               <div className="icons__text">
-                <h3>text 1</h3>
+                <h3>Przewóz osób na wycieczkę</h3>
               </div>
             </div>
             <div className="icons__box">
               <div className="icons__img icons__img--second"></div>
               <div className="icons__text">
-                <h3>text 1</h3>
+                <h3>Obsługa transportowa wesel</h3>
               </div>
             </div>
             <div className="icons__box">
               <div className="icons__img icons__img--third"></div>
               <div className="icons__text">
-                <h3>text 1</h3>
+                <h3>Przewóz osób na lotnisko</h3>
               </div>
             </div>
             <div className="icons__box">
               <div className="icons__img icons__img--fourth"></div>
               <div className="icons__text">
-                <h3>text 1</h3>
+                <h3>Obługa transportowa eventów, ekip filmowych</h3>
               </div>
             </div>
           </section>
