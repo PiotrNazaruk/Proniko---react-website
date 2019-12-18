@@ -3,7 +3,7 @@ import React from 'react';
 import Navigation from '../components/Navigations';
 import Footer from '../components/Footer';
 import Burger from '../components/Burger';
-import Helmet from 'react-helmet'
+import Helmet from 'react-helmet';
 const Layout = (props) => {
   return ( 
     <>

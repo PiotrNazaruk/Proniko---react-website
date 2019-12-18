@@ -44,6 +44,20 @@
   position: absolute;
   top: 3rem;
   left: 1rem;
+  width: 8rem;
+  height: 3rem;
+  a{
+    height: 50%;
+    @include desktop{
+      height: 90%;
+    }
+    img{
+      height: 50%;
+      @include desktop{
+        height: 90%;
+      }
+    }
+  }
   @include desktop{
     position: initial;
     width: 10%;
@@ -149,7 +163,10 @@
   flex-direction: column;
   position: relative;
   padding: 1rem;
-  
+  a{
+    width: 6rem;
+    height: 2.5rem;
+  }
   @include desktop{
     justify-content: space-around;
     height: 45%;

@@ -5,6 +5,9 @@
   padding: 1rem;
   justify-content: space-between;
   overflow: hidden;
+  @include desktop{
+    height: 40vh;
+  }
 }
 .contact-header__content{
   height: 40vh;
@@ -18,6 +21,10 @@
 .form__input{
   height: 3rem;
   border: .1rem solid black;
+  @include desktop{
+   width: 60%;
+   margin: 0 auto;
+  }
 
 }
 .contact__submit{
