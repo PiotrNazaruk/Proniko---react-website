@@ -1,0 +1,48 @@
+.icons{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: center;
+
+  &__box{
+  height: 23%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  }
+}
+.icons__img{
+  height: 3rem;
+  width: 3rem;
+ 
+}
+.icons__text{
+  flex-grow: 1;
+}
+.icons__img--first{
+  background: url('../images/map.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.icons__img--second{
+  background: url('../images/route.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.icons__img--third{
+  background: url('../images/airplane.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.icons__img--fourth{
+  background: url('../images/24-hours.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.icons__text{
+  padding: .5rem;
+padding-left: 3rem;
+ 
+}

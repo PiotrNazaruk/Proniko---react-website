@@ -1,0 +1,129 @@
+.offer-header{
+
+}
+
+.offer{
+  height: 25vh;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  &__headline{
+    text-align: center;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.offer-header__content{
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+}
+.offer-gallery{
+  height: 100vh;
+  grid-gap: .5rem;
+  display: grid;
+  grid-template-columns: repeat(12 , 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  padding: 1rem;
+}
+.offer-gallery__box--first{
+  grid-column: span 6;
+  grid-row: span 4;
+  background: blue;
+  background: url('../images/image1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 40%;
+ 
+}
+.offer-gallery__box--second{
+  grid-column: span 6;
+  grid-row: span 2;
+  background: yellow;
+  background: url('../images/image2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.offer-gallery__box--third{
+  grid-column: span 6;
+  grid-row: span 2;
+  background: pink;
+  background: url('../images/image3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.offer-gallery__box--fourth{
+  grid-column: span 5;
+  grid-row: span 3;
+  background: red;
+  background: url('../images/image4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.offer-gallery__box--fifth{
+  grid-column: span 4;
+  grid-row: span 3;
+  background: grey;
+  background: url('../images/image5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.offer-gallery__box--sixth{
+  grid-column: span 3;
+  grid-row: span 3;
+  background: blue;
+  background: url('../images/image6.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.offer-gallery__box--seventh{
+  grid-column: span 4;
+  grid-row: span 3;
+  background: yellow;
+  background: url('../images/wnetrze1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.offer-gallery__box--eight{
+  grid-column: span 8;
+  grid-row: span 3;
+  background: pink;
+  background: url('../images/wnetrze2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.offer-gallery__box--ninth{
+  grid-column: span 5;
+  grid-row: span 2;
+  background: red;
+  background: url('../images/wnetrze3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.offer-gallery__box--tenth{
+  grid-column: span 7;
+  grid-row: span 2;
+  background: grey;
+  background: url('../images/wnetrze4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

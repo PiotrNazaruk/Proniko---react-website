@@ -1,0 +1,36 @@
+.pages-header{
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  position: initial;
+
+  &__background{
+    height: 100%;
+    background: #dcdcdc;
+    position: relative;
+  }
+  &__headline{
+    width: 60%;
+    height: 5rem;
+    align-self: center;
+    text-align: center;
+    border: .2rem solid black;
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translate(-50%,-20%)
+  
+  }
+  &__content{
+    padding: 1rem;
+    padding-top: 4rem;
+  }
+}
+.about-header__content{
+  height: 70vh;
+  padding: 8rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+}

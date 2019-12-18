@@ -1,0 +1,31 @@
+.contact__form{
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: space-between;
+}
+.contact-header__content{
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+  
+}
+.form__input{
+  height: 3rem;
+  border: .1rem solid black;
+
+}
+.contact__submit{
+  height: 3rem;
+  background: white;
+  border: .2rem solid black;
+  width: 8rem;
+ 
+}
+.form-input--message{
+  height: 5rem;
+}

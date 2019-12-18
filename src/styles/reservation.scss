@@ -1,0 +1,39 @@
+.reservation{
+  height: 40vh;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    &__headline{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      background: #dcdcdc;
+      height: 100%;
+    }
+    &__button{
+      height: 100%;
+      display: flex;
+      width: 40%;
+      justify-content: center;
+      align-items: center;
+      background: url('../images/geometry.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      opacity: .4;
+      position: relative;
+    }
+}
+.reservation__btn{
+  position: absolute;
+  width: 6rem;
+  height: 2rem;
+  background: gainsboro;
+  border: .1rem solid black;
+  position: absolute;
+  z-index: 5;
+  top: 45%;
+
+}
