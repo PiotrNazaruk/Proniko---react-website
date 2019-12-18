@@ -37,12 +37,13 @@
  height: 20%;
  display: flex;
  align-items: center;
+ margin-top: 1rem;
 
   @include desktop{
    height: 20%;
   }
   img{
-    height: 70%;
+    height: 90%;
   }
  
 }
