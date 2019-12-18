@@ -3,7 +3,10 @@ import { Component } from "react"
 import Layout from "../components/Layout"
 import "../styles/main.scss"
 import{Link}from 'gatsby'
-import About from '../pages'
+import icon1 from '../images/route.svg'
+import icon2 from '../images/map.svg'
+import icon3 from '../images/airplane.svg'
+import icon4 from '../images/24-hours.svg'
 
 class IndexPage extends Component {
   state = {}
@@ -39,28 +42,28 @@ class IndexPage extends Component {
           <section className="divider"></section>
           <section className="icons">
             <div className="icons__box icon__box--1">
-              <div className="icons__img icons__img--first"></div>
+              <div className="icons__img icons__img--first"> <img src={icon1}></img> </div>
               <div className="icons__text">
                 <h3>Przewóz osób na wycieczkę</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita ducimus provident itaque excepturi at rerum error vero et. Officia, cupiditate!</p>
               </div>
             </div>
             <div className="icons__box icon__box--2">
-              <div className="icons__img icons__img--second"></div>
+              <div className="icons__img icons__img--second"> <img src={icon2}></img></div>
               <div className="icons__text">
                 <h3>Obsługa transportowa wesel</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro corporis aut quis repudiandae voluptates officiis. Placeat eum impedit natus beatae!</p>
               </div>
             </div>
             <div className="icons__box icon__box--3">
-              <div className="icons__img icons__img--third"></div>
+              <div className="icons__img icons__img--third"> <img src={icon3}></img></div>
               <div className="icons__text">
                 <h3>Przewóz osób na lotnisko</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati modi quam consequatur illum nesciunt quis debitis, iure deserunt eligendi veritatis!</p>
               </div>
             </div>
             <div className="icons__box icon__box--4">
-              <div className="icons__img icons__img--fourth"></div>
+              <div className="icons__img icons__img--fourth"> <img src={icon4}></img></div>
               <div className="icons__text">
                 <h3>Obługa transportowa eventów</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo cupiditate repellat esta.</p>
