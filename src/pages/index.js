@@ -22,6 +22,7 @@ class IndexPage extends Component {
             <div className="header__headline">
               <h1>Komfortowe przejazdy busem</h1>
               <h3>Zarezerwuj przejazd już teraz</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa est quae repellat tempora illum, quis nobis excepturi incidunt a modi.</p>
               <button className="header__button">Zadzwoń</button>
             </div>
           </header>

@@ -28,6 +28,7 @@
   transform: translateX(-100%);
   position: relative;
   transition: all .6s ease;
+
   background: white;
   position: fixed;
   z-index: 100;
@@ -147,6 +148,12 @@
   flex-direction: column;
   position: relative;
   padding: 1rem;
+  
+  @include desktop{
+    justify-content: space-around;
+    height: 45%;
+    align-self: center;
+  }
   h1{
     text-align: center;
     color: rgb(24, 17, 56);
@@ -181,6 +188,12 @@
     height:4rem;
     font-size: 1.5rem;
    } 
+   @include desktop {
+    width: 10rem;
+    height:4rem;
+    font-size: 1.5rem;
+    bottom: -20%;
+   }
   }
 
 
