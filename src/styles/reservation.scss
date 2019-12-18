@@ -1,6 +1,5 @@
 .reservation{
   height: 40vh;
-  padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,8 +15,8 @@
       width: 50%;
     }
     a{
-      width: 6rem;
-      height: 2rem;
+      width: 10rem;
+      height: 4rem;
       @include desktop{
         width: 14rem;
         height: 6rem;
@@ -27,8 +26,8 @@
 }
 .reservation__btn{
   position: absolute;
-  width: 6rem;
-  height: 2rem;
+  width: 10rem;
+  height: 4rem;
   background: gainsboro;
   border: .1rem solid black;
   position: absolute;
