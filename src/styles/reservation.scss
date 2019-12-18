@@ -13,18 +13,11 @@
       background: #dcdcdc;
       height: 100%;
     }
-    &__button{
-      height: 100%;
-      display: flex;
-      width: 40%;
-      justify-content: center;
-      align-items: center;
-      background: url('../images/geometry.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      opacity: .4;
-      position: relative;
+    a{
+      width: 6rem;
+      height: 2rem;
     }
+   
 }
 .reservation__btn{
   position: absolute;
@@ -36,4 +29,16 @@
   z-index: 5;
   top: 45%;
 
+}
+.reservation__button{
+  height: 100%;
+      display: flex;
+      width: 40%;
+      justify-content: center;
+      align-items: center;
+      background: url('../images/geometry.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      opacity: .4;
+      position: relative;
 }

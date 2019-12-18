@@ -1,8 +1,10 @@
 .footer{
   height: 15vh;
   padding: 1rem;
+  width: 100%;
   background: #898181;
   display: flex;
+  overflow: hidden;
   &__contact{
     width: 60%;
 

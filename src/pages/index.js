@@ -58,17 +58,23 @@ class IndexPage extends Component {
             <div className="icons__box">
               <div className="icons__img icons__img--fourth"></div>
               <div className="icons__text">
-                <h3>Obługa transportowa eventów, ekip filmowych</h3>
+                <h3>Obługa transportowa eventów</h3>
               </div>
             </div>
+          </section>
+          <section className="information" >
+          <h2>KOMPLEKSOWE ROZWIAZANIA</h2>
+          <p>Jesteśmy otwarci na wszelkie oferty współpracy. Zapewniamy rzetelną realizację zleceń oraz korzystne ceny. Dzięki wykwalifikowanym, doświadczonym kierowcom podróż z nami będzie bezpieczna i komfortowa </p>
+          <div className="information__button"><button className="information-btn" >zobacz więcej..</button></div>
           </section>
           <section className="reservation" >
           <div className="reservation__headline"><h3>ZAREZERWUJ PRZEJAZD JUŻ TERAZ !!</h3>
           <p>( działamy całą dobę )</p>
           
           </div>
-          <div className="reservation__button"><button className="reservation__btn">ZADZWOŃ</button></div>
+          <div className="reservation__button"> <a href="tel:+6494461709"><button className="reservation__btn">ZADZWOŃ</button></a></div>
           </section>
+          
         </Layout>
       </>
     )

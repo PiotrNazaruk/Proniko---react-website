@@ -4,6 +4,7 @@
   flex-direction: column;
   padding: 1rem;
   justify-content: center;
+  overflow: hidden;
 
   &__box{
   height: 23%;
@@ -20,6 +21,10 @@
 }
 .icons__text{
   flex-grow: 1;
+  text-align: center;
+  h3{
+    font-size: 1rem;
+  }
 }
 .icons__img--first{
   background: url('../images/map.svg');
@@ -40,6 +45,7 @@
   background: url('../images/24-hours.svg');
   background-size: cover;
   background-repeat: no-repeat;
+ 
 }
 .icons__text{
   padding: .5rem;
