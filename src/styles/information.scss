@@ -12,6 +12,22 @@
   @include tablet{
     height: 40vh;
   } 
+  @include desktop{
+    padding: 5rem;
+  }
+  h2{
+    @include desktop{
+      width:90%;
+      margin: 0 auto;
+    }
+    
+  }
+  p{
+    @include desktop{
+      width:90%;
+      margin: 0 auto;
+    }
+  }
 }
 .information__button{
   width: 7rem;
@@ -19,6 +35,11 @@
   @include tablet{
     width: 10rem;
     margin-bottom: 1rem;
+  }
+  @include desktop{
+    width: 10rem;
+    margin-bottom: 1rem;
+    margin-left: 5%;
   }
 }
 .information-btn{

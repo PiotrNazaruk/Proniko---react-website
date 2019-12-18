@@ -14,6 +14,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     height: 80vh;
+    background: whitesmoke;
   }
 
   &__box{
@@ -45,8 +46,9 @@
     justify-content: space-around;
     display: flex;
     flex-direction: column;
-    padding: .5rem;
+    padding: 2rem;
     text-align: justify;
+    padding-left: 0;
    
   }
   h3{
@@ -63,6 +65,8 @@
     @include desktop{
       display: block;
       font-size: 1.2rem;
+      width: 70%;
+      margin: 0 auto;
     }
   }
 }
@@ -85,11 +89,5 @@
   background: url('../images/24-hours.svg');
   background-size: cover;
   background-repeat: no-repeat;
- 
-}
-.icons__text{
-  padding: .5rem;
-padding-left: 3rem;
-
  
 }

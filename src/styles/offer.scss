@@ -14,17 +14,24 @@
   }
   &__headline{
     text-align: center;
-    height: 20%;
+    height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    flex-direction: column;
+    @include desktop{
+      justify-content: flex-end;
+    } 
   }
   &__text{
     height: 70%;
     text-align: center;
+    display: flex;
     @include desktop{
       width: 70%;
       margin: 0 auto;
+      align-items: center;
     }
  
   }
