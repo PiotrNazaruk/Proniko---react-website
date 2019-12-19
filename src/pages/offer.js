@@ -24,7 +24,8 @@ class Offer extends Component {
       </header>
       <div className="offer-header__content">
         <h2>Nasza oferta obejmuje</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eum accusantium impedit illo omnis quisquam non dolore vero dolores, perferendis sed nulla, autem quasi corporis? Recusandae voluptate blanditiis odit eaque.</p>
+        <p>Doskonale zdajemy sobie sprawę z tego, jak ważna jest punktualność i rzetelność podczas wynajmu busa. W ramach naszej działalności zawsze dojedziesz do celu punktualnie.
+</p>
         <ul>
           <li>- Indywidualny przewóz osób</li>
           <li>- Transport w ramach turystyki zoorganizowanej</li>
