@@ -25,7 +25,7 @@ class IndexPage extends Component {
             <div className="header__headline">
               <h1>Komfortowe przejazdy busem</h1>
               <h3>Zarezerwuj przejazd już teraz</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa est quae repellat tempora illum, quis nobis excepturi incidunt a modi.</p>
+              <p>Kompleksowe rozwiązania to nasza specjalność. Baza startowa znajduje się w Zielonej Górze. Działamy jednak na terenie całej Polski oraz Europy Zachodniej. Nie boimy się wyzwań. Czekamy na Państwa kontakt</p>
               <a href="tel:+50225079227;1"><button className="header__button">Zadzwoń</button></a> 
             </div>
           </header>
@@ -45,28 +45,28 @@ class IndexPage extends Component {
               <div className="icons__img icons__img--first"> <img src={icon1}></img> </div>
               <div className="icons__text">
                 <h3>Przewóz osób na wycieczkę</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita ducimus provident itaque excepturi at rerum error vero et. Officia, cupiditate!</p>
+                <p>Firma Proniko świadczy w systemie "door to door" według poleceń zlecającego. Głównym obszarem działania i bazą startową jest Zielona Góra. Działamy na terenie całej Polski i Europy zachodniej. W gre wchodzą wycieczki weekendowe jak i na dłuższą ilość dni. Chcemy podkreślić że wynajem busa odbywa się jedynie z kierowcą </p>
               </div>
             </div>
             <div className="icons__box icon__box--2">
               <div className="icons__img icons__img--second"> <img src={icon2}></img></div>
               <div className="icons__text">
                 <h3>Obsługa transportowa wesel</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro corporis aut quis repudiandae voluptates officiis. Placeat eum impedit natus beatae!</p>
+                <p>Świadczymy usługi wynajmu busa z kierowcą na uroczystość weselną. W naszej ofercie znajduje się również możliwość rozwożenia gości o ustalonych nocnych porach.  </p>
               </div>
             </div>
             <div className="icons__box icon__box--3">
               <div className="icons__img icons__img--third"> <img src={icon3}></img></div>
               <div className="icons__text">
                 <h3>Przewóz osób na lotnisko</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati modi quam consequatur illum nesciunt quis debitis, iure deserunt eligendi veritatis!</p>
+                <p>Oferujemy transfery na lotniska w Polsce a także transport z lotniska. Wszelkie przejazdy realizowane są busem Renault Traffic w najbogatszej wersji wyposażenia. Zapraszamy do kontaktu w celu ustalenia szczegółów wynajmu busa</p>
               </div>
             </div>
             <div className="icons__box icon__box--4">
               <div className="icons__img icons__img--fourth"> <img src={icon4}></img></div>
               <div className="icons__text">
                 <h3>Obługa transportowa eventów</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo cupiditate repellat esta.</p>
+                <p>Dzięki kompleksowemu podejściu nasza firma zapewnia również przewozy grup zoorganizowanych na plany filmowe, wyjazdy integracyjne czy wyjazdy służbowe lub szkolenia    </p>
               </div>
             </div>
           </section>
