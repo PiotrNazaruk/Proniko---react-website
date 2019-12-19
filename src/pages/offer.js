@@ -25,6 +25,15 @@ class Offer extends Component {
       <div className="offer-header__content">
         <h2>Nasza oferta obejmuje</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eum accusantium impedit illo omnis quisquam non dolore vero dolores, perferendis sed nulla, autem quasi corporis? Recusandae voluptate blanditiis odit eaque.</p>
+        <ul>
+          <li>- Indywidualny przewóz osób</li>
+          <li>- Transport w ramach turystyki zoorganizowanej</li>
+          <li>- Transfery lotniskowe</li>
+          <li>- Obsługę imprez okolicznościowych</li>
+          <li>- Transport podczas szkoleń i podróży służbowej</li>
+          <li>- Przewóz pracowników - zlecenia stałe</li>
+          <li>- Obsługa eventów / planów filmowych</li>
+        </ul>
         </div>
       <section className="offer-gallery">
         <div className="offer-gallery__box offer-gallery__box--first"></div>

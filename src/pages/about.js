@@ -23,7 +23,9 @@ class About extends Component {
       </header>
       <div className="about-header__content">
         <h3>SZYBKO, SPRAWNIE, KOMPLEKSOWO..</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eum accusantium impedit illo omnis quisquam non dolore vero dolores, perferendis sed nulla, autem quasi corporis? Recusandae voluptate blanditiis odit eaque.</p>
+        <p>Naszym celem jest stworzenie Klientom warunków bezpiecznego podróżowania busem do krajów Europy, takich jak Niemcy, Holandia oraz z każdego z tych krajów do Polski. Zapewniamy Państwu pełen komfort w trakcie każdego przejazdu.
+
+Busy, którymi dysponujemy, są należycie przygotowane i posiadają ważne badania techniczne oraz certyfikaty wymagane na zachodzie Europy.</p>
         </div>
      </Layout>
      );

@@ -38,6 +38,10 @@
   flex-direction: column;
   @include desktop{
     height: 70vh;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 15rem 0 15rem 0;
   }
 
 }

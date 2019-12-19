@@ -47,6 +47,14 @@
   margin: 0 auto;
   flex-direction: column;
   text-align: center;
+
+  h2{
+    align-self: flex-start;
+  }
+  ul{
+    align-self: flex-start;
+    text-align: left;
+  }
 }
 .offer-gallery{
   height: 100vh;
@@ -55,6 +63,11 @@
   grid-template-columns: repeat(12 , 1fr);
   grid-template-rows: repeat(12, 1fr);
   padding: 1rem;
+  @include desktop{
+    width: 80%;
+    margin: 0 auto;
+    height: 160vh;
+  }
 }
 .offer-gallery__box--first{
   grid-column: span 6;
