@@ -73,7 +73,7 @@ class IndexPage extends Component {
           <section className="information" >
           <h2>KOMPLEKSOWE ROZWIAZANIA</h2>
           <p>Jesteśmy otwarci na wszelkie oferty współpracy. Zapewniamy rzetelną realizację zleceń oraz korzystne ceny. Dzięki wykwalifikowanym, doświadczonym kierowcom podróż z nami będzie bezpieczna i komfortowa </p>
-          <div className="information__button"><button className="information-btn" >zobacz więcej..</button></div>
+          <div className="information__button"><Link to="/offer/"><button className="information-btn" >zobacz więcej..</button></Link></div>
           </section>
           <section className="reservation" >
           <div className="reservation__headline"><h3>ZAREZERWUJ PRZEJAZD JUŻ TERAZ !!</h3>
