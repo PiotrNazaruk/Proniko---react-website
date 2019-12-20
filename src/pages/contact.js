@@ -27,7 +27,7 @@ class Contact extends Component {
         <h2>SKONTAKTUJ SIĘ Z NAMI</h2>
         <ul>
           <li>proniko1976@gmail.com</li>
-          <li><a href="tel:+48501406319"></a>501-406-319</li>
+          <a href="tel:+48501406319"> <li>501-406-319</li></a>
         </ul>
         </div>
       <Form/>
