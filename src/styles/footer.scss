@@ -9,6 +9,9 @@
   @include phone-landscape{
     height: 20vh;
   }
+  @include desktop{
+    height: 10vh;
+  }
   &__contact{
     width: 60%;
 

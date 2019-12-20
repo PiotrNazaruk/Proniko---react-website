@@ -26,7 +26,7 @@ class IndexPage extends Component {
               <h1>Komfortowe przejazdy busem</h1>
               <h3>Zarezerwuj przejazd już teraz</h3>
               <p>Kompleksowe rozwiązania to nasza specjalność. Baza startowa znajduje się w Zielonej Górze. Działamy jednak na terenie całej Polski oraz Europy Zachodniej. Nie boimy się wyzwań. Czekamy na Państwa kontakt</p>
-              <a href="tel:+50225079227;1"><button className="header__button">Zadzwoń</button></a> 
+              <a href="tel:+48501406319"><button className="header__button">Zadzwoń</button></a> 
             </div>
           </header>
           <section className="offer">

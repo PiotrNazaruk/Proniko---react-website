@@ -22,10 +22,17 @@ class Contact extends Component {
         
        
       </header>
+      <section className="contact-content">
       <div className="contact-header__content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eum accusantium impedit illo omnis quisquam non dolore vero dolores, perferendis sed nulla, autem quasi corporis? Recusandae voluptate blanditiis odit eaque.</p>
+        <h2>SKONTAKTUJ SIĘ Z NAMI</h2>
+        <ul>
+          <li>proniko1976@gmail.com</li>
+          <li><a href="tel:+48501406319"></a>501-406-319</li>
+        </ul>
         </div>
       <Form/>
+      </section>
+     
      </Layout>
      );
   }
