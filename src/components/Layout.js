@@ -10,7 +10,7 @@ const Layout = (props) => {
     <Helmet>
           <meta charSet="utf-8" />
           <title>PRONIKO</title>
-          <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700&display=swap&subset=latin-ext" rel="stylesheet"></link>
+          <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap&subset=latin-ext" rel="stylesheet"></link>
         </Helmet>
     <Navigation />
     <Burger click={props.click}/>

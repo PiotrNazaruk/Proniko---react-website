@@ -26,6 +26,7 @@ class About extends Component {
         <p>Naszym celem jest stworzenie Klientom warunków bezpiecznego podróżowania busem do krajów Europy, takich jak Niemcy, Holandia oraz z każdego z tych krajów do Polski. Zapewniamy Państwu pełen komfort w trakcie każdego przejazdu.
 
 Busy, którymi dysponujemy, są należycie przygotowane i posiadają ważne badania techniczne oraz certyfikaty wymagane na zachodzie Europy.</p>
+        <p></p>
         </div>
      </Layout>
      );
