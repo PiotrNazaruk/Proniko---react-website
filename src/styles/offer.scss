@@ -57,6 +57,15 @@
   ul{
     align-self: flex-start;
     text-align: left;
+    height: 40%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    li{
+      @include desktop{
+        font-size: 1.3rem;
+      }
+    }
   }
 }
 .offer-gallery{
@@ -68,7 +77,7 @@
   padding: 1rem;
   
   @include desktop{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     height: 160vh;
     padding-bottom: 5rem;
