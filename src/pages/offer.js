@@ -28,7 +28,7 @@ class Offer extends Component {
 </p>
         <ul>
           <li>- Indywidualny przewóz osób</li>
-          <li>- Przewóz osób do Wólki Kosowskiej pod Warszawą (200zł/osoba)</li>
+          <li>- Przewóz osób z Zielonej Góry do Wólki Kosowskiej pod Warszawą (200zł/osoba)</li>
           <li>- Transport w ramach turystyki zoorganizowanej</li>
           <li>- Transfery lotniskowe</li>
           <li>- Obsługę imprez okolicznościowych</li>
