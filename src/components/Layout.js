@@ -14,6 +14,7 @@ const Layout = (props) => {
         
           <meta name='description' content= "Wynajem busa Zielona Góra, eventy, przejazd na lotniska, wesela i wiele innych"/>
           <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap&subset=latin-ext" rel="stylesheet"></link>
+          <meta name="google-site-verification" content="3fmyptnbxxjdKnH1vNYlDtrjEJBEjLz1fh-gbTrxAQ0" />
         </Helmet>
     <Navigation />
     <Burger click={props.click}/>
