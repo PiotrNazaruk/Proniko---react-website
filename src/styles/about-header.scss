@@ -64,6 +64,8 @@
   @include desktop{
     height: 40vh;
     flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
   
   }
 
@@ -83,8 +85,8 @@
       height: 4rem;
       width: 4rem;
       @include desktop{
-        height: 6rem;
-        width: 6rem;
+        height: 4rem;
+        width: 4rem;
       }
     }
    .icon-box__headline{
