@@ -62,9 +62,9 @@
   justify-content: center;
   align-items: center;
   @include desktop{
-    height: 50vh;
+    height: 40vh;
     flex-direction: row;
-    flex-wrap: wrap;
+  
   }
 
   .icon-box{
