@@ -46,6 +46,11 @@
   justify-content: space-between;
   flex-direction: column;
   text-align: center;
+  p{
+    @include desktop{
+      margin-top: 5rem;
+    }
+  }
   @include desktop{
     height: 40vh;
     width: 70%;
