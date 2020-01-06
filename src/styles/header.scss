@@ -46,10 +46,11 @@
   left: 1rem;
   width: 8rem;
   height: 3rem;
+
   a{
     height: 50%;
     @include desktop{
-      height: 90%;
+      height: 100%;
     }
     img{
       height: 50%;
@@ -97,6 +98,10 @@
       } 
       @include desktop{
         padding-right: 1rem;
+        font-size: 1rem;
+        &:hover{
+          opacity: .6;
+        }
       }
     }
 }

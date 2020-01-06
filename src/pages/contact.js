@@ -3,7 +3,8 @@ import { Component } from "react"
 import Layout from "../components/Layout"
 import "../styles/main.scss"
 import Form from "../components/Form";
-
+import email from '../images/email.svg';
+import telephone from '../images/call.svg';
 class Contact extends Component {
   state = {  }
   handleButton = () => {
@@ -25,10 +26,14 @@ class Contact extends Component {
       <section className="contact-content">
       <div className="contact-header__content">
         <h2>SKONTAKTUJ SIĘ Z NAMI</h2>
-        <ul>
-          <li>proniko1976@gmail.com</li>
-          <a href="tel:+48501406319"> <li>501-406-319</li></a>
-        </ul>
+          <div className="contact-content__box">
+            <div className="contact-content__icon"><img src={email} alt=""/></div>
+            <div className="contact-content__info"><span className="contact-data">proniko1976@gmail.com</span></div>
+          </div>
+          <div className="contact-content__box">
+          <div className="contact-content__icon"><img src={telephone} alt=""/></div>
+            <div className="contact-content__info"><a href="tel:+48501406319"><span className="contact-data">501-406-319</span></a></div>
+          </div>
         </div>
       <Form/>
       </section>

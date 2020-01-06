@@ -9,7 +9,6 @@ const Footer = () => {
      
       </ul>
       </div>
-      <div className="footer__icon-container"><div className="footer__fb-icon"></div></div>
     </footer>
    );
 }
